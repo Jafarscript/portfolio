@@ -11,25 +11,26 @@
 
 <body>
     <!-- Header Element -->
-    <header class="nav">
+    <header class="nav" id="Home">
+	   <section class="homepage">
+	    <div id="overlay">
+		 <div class="header1">
         <h1>Jafar<span>Script</span></h1>
         <nav>
             <ul class="nav-area">
-                <li><a href="">Home</a></li>
-                <li><a href="">Services</a></li>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Services">Services</a></li>
+				<li><a href="#Portfolio">Portfolio</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Portfolio</a></li>
                 <li><a href="">Contact Us</a></li>
             </ul>
         </nav>
+		</div>
         <!-- Home -->
         <!-- Services -->
         <!-- About -->
         <!-- Portfolio -->
         <!-- Contact Us -->
-    </header>
-    <section class="homepage">
-	    <div id="overlay">
         <div class="flex">
             <h2>Jafar Li-hammed Olamilekan</h2>
             <h3>A software engineer</h3>
@@ -40,7 +41,9 @@
         <!-- p-tag A software engineer base in Lagos Nigera -->
         <!-- Button links to my CV -->
     </section>
-    <section class="services">
+    </header>
+    
+    <section class="services" id="Services">
         <div class="header2">
             <h1>Services</h1>
             <p>Lorem ipsum dolor sit amet consectetur</p>
@@ -68,7 +71,55 @@
             <!-- card3: image, h2 , p -->
         </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="Portfolio">
+        <div class="header3">
+            <h2>My Portfolio</h2>
+            <hr>
+        </div>
+        <div class="image-area">
+            <div class="single-image">
+               <div class="back">
+                <img src="./img/Allah.jpg" alt="" width="350px" height="300px">
+                <h2>Worship</h2>
+                <p>Religion</p>
+               </div>
+            </div>
+            <div class="single-image">
+                <div class="back">
+                    <img src="./img/Shoe.jpg" alt="" width="350px" height="300px">
+                    <h2>Fashion</h2>
+                    <p>Clothing</p>
+                   </div>
+            </div>
+            <div class="single-image">
+                <div class="back">
+                    <img src="./img/Mosquito.jpg" alt="" width="350px" height="300px">
+                    <h2>Cartoon</h2>
+                    <p>Animation</p>
+                   </div>
+            </div>
+            <div class="single-image">
+                <div class="back">
+                    <img src="./img/Alex Telles.jpg" alt="" width="350px" height="300px">
+                    <h2>Vacation</h2>
+                    <p>Photography</p>
+                   </div>
+            </div>
+            <div class="single-image">
+                <div class="back">
+                    <img src="./img/ten.jpg" alt="" width="350px" height="300px">
+                    <h2>Explore</h2>
+                    <p>Wildlife</p>
+                   </div>
+            </div>
+            <div class="single-image">
+                <div class="back">
+                    <img src="./img/My Computer.jpg" alt="" width="350px" height="300px">
+                    <h2>Internet</h2>
+                    <p>Website Design</p>
+                   </div>
+            </div>
+        </div>
         <!-- h2 Portfolio -->
         <!-- p-tag sometext -->
         <!-- card1: image, h2 , p -->

@@ -4,8 +4,8 @@ body {
     background: rgba(0, 0, 0, 0.7);
 }
 
-header {
-    position: sticky;
+.header1 {
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -21,14 +21,15 @@ a {
     text-decoration: none;
 }
 
-header h1 {
+.header1 h1 {
     color: white;
+	font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header h1 span {
+.header1 h1 span {
     color: red;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: cursive;
 }
 
 .nav-area {
@@ -43,6 +44,7 @@ header h1 span {
 
 .nav-area li a {
     color: #fff;
+	font-size: 17px;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -166,6 +168,10 @@ header h1 span {
 .flexbox .content p {
     display: block;
     line-height: 1.75;
+	color: #6c757d;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px 12px 20px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -174,4 +180,47 @@ header h1 span {
 .flexbox .content h2{
     font-size: 30px;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.portfolio{
+    background-color: #f8f9fa;
+    padding: 100px 100px;
+    overflow: hidden;
+}
+.portfolio .header3{
+    text-align: center;
+}
+.portfolio .header3 h2{
+    font-size: 2.5rem;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    text-transform: uppercase;
+}
+.portfolio .header3 hr{
+    width: 20%;
+    height: 5px;
+    margin-top: 1px;
+    background: black;
+    margin-bottom: 4rem;
+}
+.image-area{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+.single-image{
+    padding: 0px 10px 20px;
+    justify-content: space-evenly;
+}
+.back{
+    background: #fff;
+}
+.back h2{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.back p{
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
 }
