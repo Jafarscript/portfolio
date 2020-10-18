@@ -399,6 +399,11 @@ a {
     display: inline-block;
     padding: 0px 1px;
 }
+.fontawe li a{
+    color: black;
+    font-size: 25px;
+    padding: 0px 10px;
+}
 
 .space a {
     text-decoration: none;
