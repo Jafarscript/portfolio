@@ -26,7 +26,15 @@ a {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+#checkbtn{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 .header1 h1 span {
     color: red;
     font-family: cursive;
@@ -55,19 +63,19 @@ a {
 .homepage {
     width: 100%;
     height: 100vh;
-    background: url(img/hero-bg.jpg) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/hero-bg.jpg) no-repeat center;
     background-size: cover;
     overflow: hidden;
 }
 
-#overlay {
+overlay {
     /* position: absolute; */
     top: 0;
     left: 0;
     width: 100%;
     /* height: 100%; */
     background-size: cover;
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(20, 0, 0, 0.7);
 }
 
 .flex {
@@ -93,17 +101,17 @@ a {
     text-align: center;
     text-transform: capitalize;
     font-weight: lighter;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin-top: 1px;
 }
 
 .flex a {
-    color: #fff;
-    border: 1px solid orange;
+    color: red;
+    border: 1px solid red;
     font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     padding: 20px 50px;
-    background: orange;
+    background: #fff;
     border-radius: 10px;
     font-weight: bolder;
 }
@@ -128,9 +136,11 @@ a {
 }
 
 .services {
-    background: #fff;
+    background: red;
     padding: 100px 100px;
     overflow: hidden;
+    color: #fff;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .services .header2 {
@@ -148,7 +158,7 @@ a {
     font-size: 1rem;
     font-weight: 400;
     font-style: italic;
-    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin-bottom: 4rem
 }
 
@@ -168,7 +178,7 @@ a {
 .flexbox .content p {
     display: block;
     line-height: 1.75;
-    color: #6c757d;
+    color: #fff;
     font-size: 18px;
     font-weight: 400;
     padding: 0px 12px 20px;
@@ -184,9 +194,10 @@ a {
 }
 
 .portfolio {
-    background-color: #f8f9fa;
+    background-color: #e8eff7;
     padding: 100px 100px;
     overflow: hidden;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .portfolio .header3 {
@@ -238,10 +249,12 @@ a {
 .about {
     padding: 100px 100px 0px 100px;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg') no-repeat right bottom / cover;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/hero-bg.jpg') no-repeat right bottom / cover; */
     text-align: center;
     height: 100vh;
-    color: white;
+    background: #fff;
+    color: red;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .about .header2 {
@@ -273,7 +286,6 @@ a {
     font-size: 1rem;
     font-weight: 400;
     font-style: italic;
-    font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin-bottom: 4rem
 }
 
@@ -414,4 +426,28 @@ a {
 .space a:hover {
     text-decoration: underline;
     transition: step-start 2s;
+}
+@media (max-width: 920px){
+    .header1 h1{
+        font-size: 20px;
+    }
+    .header1 nav ul li a{
+        font-size: 12px;
+    }
+}
+@media (max-width: 858px){
+    #checkbtn{
+        display: block;
+    }
+    .header1 {
+        display: block;
+        height: 60px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .header1 #checkbtn{
+        float: right;
+        font-size: 20px;
+        padding-top: 20px;
+    }
 }
