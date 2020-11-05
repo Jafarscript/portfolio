@@ -12,39 +12,33 @@
 
 <body>
     <!-- Header Element -->
-    <header class="nav" id="Home">
-        <section class="homepage">
-            <div id="overlay">
-                <div class="header1">
-                    <input type="checkbox" id="check">
-                    <label for="check" id="checkbtn">X</label>
-                    <h1>Jafar<span>Script</span></h1>
-                    <nav>
-                        <ul class="nav-area">
-                            <li><a href="#Home">Home</a></li>
-                            <li><a href="#Services">Services</a></li>
-                            <li><a href="#Portfolio">Portfolio</a></li>
-                            <li><a href="#About">About</a></li>
-                            <li><a href="#Contact">Contact Us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <!-- Home -->
-                <!-- Services -->
-                <!-- About -->
-                <!-- Portfolio -->
-                <!-- Contact Us -->
-                <div class="flex">
-                    <h2>Jafar Li-hammed Olamilekan</h2>
-                    <h3>A software engineer</h3>
-                    <a href="">Read My CV</a>
-                </div>
-            </div>
-            <!-- h2 Jafar Li-hammed Olamilekan -->
-            <!-- p-tag A software engineer base in Lagos Nigera -->
-            <!-- Button links to my CV -->
-        </section>
+    <header class="header" id="Home">
+        <a href="#" class="logo">Jafar<span>Script</span></a>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><span class="nav-icon"></span></label>
+        <ul class="nav-area">
+            <li><a href="#">Home</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+        <!-- Home -->
+        <!-- Services -->
+        <!-- About -->
+        <!-- Portfolio -->
+        <!-- Contact Us -->
     </header>
+    <section class="homepage" id="Home">
+        <div class="flex">
+            <h2>Jafar Li-hammed Olamilekan</h2>
+            <h3>A software engineer</h3>
+            <a href="">Read My CV</a>
+        </div>
+        <!-- h2 Jafar Li-hammed Olamilekan -->
+        <!-- p-tag A software engineer base in Lagos Nigera -->
+        <!-- Button links to my CV -->
+    </section>
 
     <section class="services" id="Services">
         <div class="header2">
@@ -165,9 +159,9 @@
         <form action="send message" class="form-input1">
             <div class="form-input">
                 <div class="input-1">
-                    <input type="text" name="Name" placeholder="Your Name *">
-                    <input type="email" name="Email" placeholder="Your Email *">
-                    <input type="number" name="Phone" placeholder="Your Phone *">
+                    <input type="text" name="Name" placeholder="Your Name *" required>
+                    <input type="email" name="Email" placeholder="Your Email *" required>
+                    <input type="number" name="Phone" placeholder="Your Phone *" required>
                 </div>
                 <div class="input-2">
                     <textarea name="Message" id="" cols="80" rows="20" placeholder="Your Message *"></textarea>
