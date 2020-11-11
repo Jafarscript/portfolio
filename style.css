@@ -552,13 +552,15 @@ a {
 .input-1 {
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 .input-1 input {
     width: 500px;
     padding: 25px 20px;
     margin: 37px;
+    /* margin-bottom: 40px; */
+    /* margin-right: 50px; */
     border: 0.5px solid red;
     border-radius: 5px;
 }
@@ -613,13 +615,15 @@ a {
     .input-1 input {
         width: 250px;
         padding: 10px 20px;
-        margin-bottom: 30px;
+        margin: 20px;
+        /* margin-bottom: 30px; */
     }
 
     .input-2 textarea {
         padding: 10px 20px;
         width: 250px;
         height: 200px;
+        margin-top: 20px;
     }
 
     .input-3 button {
