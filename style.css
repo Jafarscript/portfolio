@@ -34,8 +34,8 @@ body {
 
 .header .logo {
     display: block;
-    font-size: 2em;
-    padding: 10px 50px;
+    font-size: 25px;
+    padding: 16px 30px;
     float: left;
     color: #000000;
 }
@@ -545,7 +545,7 @@ a {
 .form-input {
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -553,7 +553,6 @@ a {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
-    margin-right: 40px;
 }
 
 .input-1 input {
@@ -673,6 +672,6 @@ a {
         justify-content: space-evenly;
     }
     .fontawe li a{
-        font-size: 16px;
+        font-size: 20px;
     }
 }
