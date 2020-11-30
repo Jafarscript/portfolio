@@ -390,6 +390,19 @@ a {
         color: #fff;
         font-weight: 500;
     }
+    .back h2{
+        font-size: 20px;
+    }
+    .back p{
+        font-weight: bold;
+    }
+    .back img{
+        width: 260px;
+        transition-duration: 1s;
+    }
+    .back img:hover{
+        width: 270px;
+    }
 
     .portfolio .header3 hr {
         width: 50%;
@@ -491,6 +504,7 @@ a {
 
     .about .header2 p {
         font-size: 15px;
+        font-weight: 400;
     }
 
     .about .maintext {
@@ -499,6 +513,7 @@ a {
 
     .about .maintext p {
         font-size: 16px;
+        font-weight: 500;
     }
 
     .about span {
@@ -547,6 +562,7 @@ a {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .input-1 {
@@ -556,7 +572,8 @@ a {
 }
 
 .input-1 input {
-    width: 500px;
+    width: 410px;
+    height: 10px;
     padding: 25px 20px;
     margin: 37px;
     /* margin-bottom: 40px; */
@@ -567,6 +584,7 @@ a {
 
 .input-2 textarea {
     padding: 25px 20px;
+    width: 450px;
     border: 0.5px solid red;
     border-radius: 5px;
 }
@@ -613,7 +631,7 @@ a {
     }
 
     .input-1 input {
-        width: 250px;
+        width: 200px;
         padding: 10px 20px;
         margin: 20px;
         /* margin-bottom: 30px; */
@@ -621,7 +639,7 @@ a {
 
     .input-2 textarea {
         padding: 10px 20px;
-        width: 250px;
+        width: 200px;
         height: 200px;
         margin-top: 20px;
     }
@@ -644,10 +662,13 @@ a {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    font-weight: bolder;
+    margin: 0 50px;
 }
 
 .fontawe li {
     /* list-style: none; */
+    list-style: none;
     display: inline-block;
     /* padding: 0px 1px; */
 }
@@ -655,12 +676,10 @@ a {
 .fontawe li a {
     color: white;
     font-size: 25px;
-    padding-right: 10px;
+    margin: 0 auto;
 }
-
 .space a {
     text-decoration: none;
-    padding-right: 15px;
     color: #fff;
 }
 
@@ -670,11 +689,13 @@ a {
 }
 @media (max-width:930px){
     .footer{
-        padding: 10px 50px;
+        overflow: hidden;
     }
     .flex3{
         flex-direction: column;
         justify-content: space-evenly;
+        align-items: center;
+        font-size: 16px;
     }
     .fontawe li a{
         font-size: 20px;
