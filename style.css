@@ -528,6 +528,7 @@ a {
     .heart {
         width: 40px;
         margin: 0 25px;
+        height: 30px;
     }
 }
 
