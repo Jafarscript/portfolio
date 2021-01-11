@@ -136,14 +136,15 @@ a {
     .header ul a {
         border-bottom: none;
         background-color: #fff;
-        color: red;
+        color: #019F49;
+        font-weight: bold;
         /* border-right: 1px solid red; */
         box-sizing: border-box;
     }
 
     .header ul a:hover {
-        color: #01B3ED;
-        background: #FFF8B8;
+        color: #fff;
+        background: #019F49;
     }
 }
 
