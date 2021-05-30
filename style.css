@@ -364,7 +364,10 @@ a {
     padding: 0px 10px 20px;
     justify-content: space-evenly;
 }
-
+.single-image:hover{
+    transform: translateY(-2%);
+    transition: ease-in-out 0.5s;
+}
 .back {
     background: #fff;
 }
