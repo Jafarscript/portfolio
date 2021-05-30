@@ -151,7 +151,7 @@ a {
 /* Hompage start */
 .homepage {
     width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-bg.jpg) no-repeat center;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://res.cloudinary.com/dvo8xhx6r/image/upload/v1622374792/hero-bg_euvjgw.jpg) no-repeat center;
     background-size: cover;
     overflow: hidden;
 }
@@ -159,7 +159,7 @@ a {
 .flex {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 200px 100px;
 }
