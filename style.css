@@ -569,8 +569,8 @@ a {
 .form-input {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+    justify-content: space-evenly;
     overflow: hidden;
 }
 
@@ -584,11 +584,12 @@ a {
     width: 410px;
     height: 10px;
     padding: 25px 20px;
-    margin: 37px;
-    /* margin-bottom: 40px; */
+    /* margin: 37px; */
+    margin-bottom: 40px;
     /* margin-right: 50px; */
     border: 0.5px solid #019F49;
     border-radius: 5px;
+    outline: none;
 }
 @media (max-width:1024px){
     .input-1 input{
@@ -597,9 +598,11 @@ a {
 }
 .input-2 textarea {
     padding: 25px 20px;
-    width: 450px;
+    /* width: 450px; */
     border: 0.5px solid #019F49;
     border-radius: 5px;
+    height: 215px;
+    outline: none;
 }
 
 .input-3 {
@@ -640,7 +643,7 @@ a {
     .form-input {
         display: flex;
         flex-direction: column;
-        align-content: center;
+        align-items: center;
         justify-content: space-around;
     }
 
@@ -714,5 +717,8 @@ a {
     .flex3 p{
         font-size: 12px;
         font-weight: bolder;
+    }
+    .footer{
+        padding-bottom: 50px;
     }
 }
